@@ -1,18 +1,30 @@
-# Final project: [working title]
+# Final project: Cybersecurity Risk Disclosure Around the SEC’s 2023 Rule
 
-Use this repository for your COMPSS 211A team project. Replace the bracketed
-prompts as your project develops. A reader should eventually be able to use
-this README to reproduce your work and use the project website to understand
-your question, evidence, interpretation, and limitations.
+This project examines how cybersecurity-related language in the Item 1A Risk Factors sections of major software companies’ annual 10-K filings changed around the SEC’s 2023 cybersecurity disclosure rule. We compare filings from Adobe, Microsoft, and Oracle between 2021 and 2025.
+
+Our analysis combines quantitative text measures with manually reviewed examples. We first validate and clean the extracted Item 1A texts, then identify cybersecurity-related language and calculate standardized frequencies per 10,000 words. We compare changes across companies and between the pre-rule and post-rule periods.
+
+The analysis is descriptive. It identifies changes that occurred around the regulatory development but does not establish that the SEC rule caused those changes.
+
+
 
 ## Project overview
 
-- **Research question:** [What are you trying to learn?]
-- **Team members:** [Names]
-- **Unit of analysis:** [What does one row or document represent?]
-- **Data source:** [Where do the data come from?]
-- **Main result:** [Complete this after the analysis.]
-- **Important limitation:** [Complete this as soon as you identify one.]
+1. Research question: How did cybersecurity-related language in Item 1A Risk Factors change among Adobe, Microsoft, and Oracle around the SEC’s 2023 cybersecurity disclosure rule?
+
+2. Team members: Lillian He、Tianqing Xu、Juan Yang、George Yu
+
+3. Unit of analysis: One company-year Item 1A Risk Factors section from an annual 10-K filing.
+
+4. Data source: SEC EDGAR annual 10-K filings.
+
+5. Coverage: Adobe, Microsoft, and Oracle, filing years 2021–2025, for a total of 15 filings.
+
+6. Method: Text cleaning, validated cybersecurity keyword measurement, standardized frequencies per 10,000 words, company comparisons, and manual review of selected sentences.
+
+7. Preliminary result: Adobe and Microsoft show increases in measured cybersecurity-related language after 2023, while Oracle remains comparatively stable. These results will be recalculated after keyword validation.
+
+8. Important limitation: The project analyzes Item 1A rather than companies’ complete cybersecurity disclosures. It is a small descriptive sample and does not support causal or sector-wide conclusions.
 
 ## Start here
 
